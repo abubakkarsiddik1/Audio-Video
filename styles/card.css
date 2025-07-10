@@ -1,0 +1,37 @@
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.card-container{
+    display: flex;
+}
+
+.card{
+    width: 300px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.203);
+}
+
+.card:hover{
+    background-color: beige;
+}
+.card h3{
+    font-size: 1.25em;
+    font-weight: 10px;
+}
+.card img{
+    width: 100%;
+    border-radius:5px 5px;
+}
+.card button{
+    background-color: aqua;
+    padding: 10px 30px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
